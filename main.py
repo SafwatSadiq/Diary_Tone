@@ -4,7 +4,7 @@ from backend import get_data
 
 dates, pos, neg= get_data()
 
-st.header("Diary Tone")
+st.title("Diary Tone")
 
 st.subheader("Positivity")
 figure_pos = px.line(x=dates, y=pos, labels={'x':"Date", 'y':"Positivity"})
